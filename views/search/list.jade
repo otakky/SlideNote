@@ -10,7 +10,7 @@ block content
         a(href="/") » back
       else
         each doc in docs
-          slide = doc._source
+          - slide = doc._source
           .col-md-4
             h2 #{slide.title}
             p #{slide.description} (#{slide.length} page)

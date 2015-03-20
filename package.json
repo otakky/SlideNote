@@ -13,6 +13,7 @@
     "async": "~0.2.9",
     "mongoose": "~3.6.19",
     "underscore": "~1.5.2",
-    "elasticsearch": "0.3.2"
+    "elasticsearch": "0.3.2",
+    "sanitize-filename": "*"
   }
 }
